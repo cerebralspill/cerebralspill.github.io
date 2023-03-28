@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mikey Nguyen</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Personal Website">
+        <meta name="author" content="Mikey Nguyen">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+    <body>
+        <ul role="menu-bar">
+            &lt;&gt;
+            <li role="menu-item" tabindex="0" aria-haspopup="true">
+                <ul role="menu">
+                    <li role="menu-item"><a href="https://github.com/cerebralspill">View Source</a></li>
+                </ul>
+            </li>
+            <li class="hide" role="menu-item" tabindex="0" aria-haspopup="true">
+                About
+                <ul role="menu">
+                    <li role="menu-item" class="divider"><a href="#me">Me</a></li>
+                    <li role="menu-item"><a href="./assets/mikey_nguyen_resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </li>
+            <li role="menu-item" tabindex="0" aria-haspopup="true">
+                Contact
+                <ul role="menu">
+                    <li role="menu-item"><a href="mailto:mikengoc@gmail.com" target="_blank">Email</a></li>
+                    <li role="menu-item"><a href="https://linkedin.com/in/mikey-nguyen2" target="_blank">LinkedIn</a></li>
+                    <li role="menu-item"><a href="https://github.com/cerebralspill" target="_blank">GitHub</a></li>
+                </ul>
+            </li>
+            <li role="menu-item" tabindex="0" aria-haspopup="true">
+                Projects
+                <ul role="menu">
+                    <li role="menu-item"><a href="https://github.com/cerebralspill/taste-buds" target="_blank">Taste Buds</a></li>
+                    <li role="menu-item"><a href="https://github.com/cerebralspill/Pro-Wrestler-Stat-Generator" target="_blank">Pro Wrestler Stat Generator</a></li>
+                    <li role="menu-item"><a href="https://github.com/cerebralspill/Tenmo-Payment-CLI-Application" target="_blank">Tenmo</a></li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <div id="projects" class="window moveable">
+            <div class="title-bar">
+                <button aria-label="Close" class="close"></button>
+                <h1 class="title">Projects</h1>
+                <button aria-label="Resize" disabled class="hidden"></button>
+            </div>
+            <div class="separator"></div>
+
+            <div class="window-pane">
+                <h3>Some Projects</h3>
+                <ul>
+                    <li><a href="https://github.com/cerebralspill/taste-buds" target="_blank">Taste Buds</a><description> Find a restaurant, invite your friends</description></li>
+                    <li><a href="https://github.com/cerebralspill/Pro-Wrestler-Stat-Generator" target="_blank">Pro Wrestler Stat Generator</a><description> Pro Wrestler role play</description></li>
+                    <li><a href="https://github.com/cerebralspill/Tenmo-Payment-CLI-Application" target="_blank">Tenmo Payment CLI Application</a><description> Wallet in your terminal</description></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="about" class="window moveable">
+            <div class="title-bar">
+                <button aria-label="Close" class="close"></button>
+                <h1 class="title">Mikey Nguyen</h1>
+                <button aria-label="Resize" disabled class="hidden"></button>
+            </div>
+            <div class="separator"></div>
+
+            <div class="window-pane">
+                <p>Hi there, I'm Mikey! I build software for fun and for a living. I'm interested in the ambient forms of literature, art, and science.</p>
+                <p>Reach out at <a href="mailto:mikengoc@gmail.com">mikengoc@gmail.com</a> or <a href="https://linkedin.com/in/mikey-nguyen2">@mikey~nguyen</a>.</p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
