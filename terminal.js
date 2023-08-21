@@ -8,9 +8,8 @@ I'm just making things up as I go.
 `);
 
 const CONTACT = format(`
-Email:   maas@lalani.dev
-Github:  https://github.com/maaslalani
-Twitter: https://twitter.com/maaslalani
+Email:   mikengoc@gmail.com
+Github:  https://github.com/cerebralspill
 `);
 
 const README = format(`
